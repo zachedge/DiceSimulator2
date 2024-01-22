@@ -17,7 +17,7 @@ namespace DiceSimulator
 
         public int[] SimulateRolls(int numberOfRolls)
         {
-            int[] results = new int[13]; // Index 0 is not used
+            int[] results = new int[13];
 
             for (int i = 0; i < numberOfRolls; i++)
             {
